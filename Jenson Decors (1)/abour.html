@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Jenson Decors</title>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="code.jquery.com_jquery-3.7.0.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Praise&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <script 
+  src="https://maps.googleapis.com/maps/api/js">
+  
+  
+</script>
+    <style>
+      .text1{
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: rgb(68, 13, 13);
+    }
+        @media (max-width:1225px) {
+        .text1{
+          font-size: 3rem !important;
+          
+        }
+        
+      }
+
+
+      @media(max-width:767px)  {
+        .image{
+          height: 180px;
+        }
+       
+        .bv{
+          left: 32% !important;
+        }
+       
+
+        .text1{
+          font-size: 2rem !important;
+
+        }
+        
+        
+      }
+      @media (max-width:281px) {
+        .image{
+          height: 120px;
+        }
+        .text1{
+          font-size: 1.5rem;
+        }
+        .bv{
+          top: 28% !important;
+          left: 25% !important;
+        }
+      }
+      .tt{
+        font-weight: 900;
+        color: rgb(73, 19, 19);
+      }
+      .butn{
+        font-weight: 900;
+        background-color: brown;
+        border: none;
+        border-radius: 10px;
+        color: white;
+
+      }
+      .hh{
+font-weight: 900;
+      }
+      .footer{
+  background:#dfcd50;
+  width: 100%;
+  
+}
+.flog{
+  color:black;
+  padding-right: 10px;
+}
+.ftext{
+  color: #575757;
+  font-size: 15px;
+}
+.fblg{
+  padding-left: 10px;
+  padding-right:50px;
+  }
+.con>input{
+  background-color: #1d1d1d ;
+}
+.con{
+  padding-top: 20px;
+}
+.con>textarea{
+  background-color: #1d1d1d ;
+  margin-bottom: 20px;
+}
+.msg{
+  background-color:gray;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+  margin-bottom: 50px;
+  
+}
+.msg:hover{
+  background-color:#dfcd50;
+  color: white;
+  border: 1px solid black;
+
+}
+.shortfooter{
+  width: 100%;
+  background-color:#875427;
+  height: 40px;
+ 
+}
+
+.link{
+  list-style: none;
+  color: #875427;
+  line-height: 50px;
+}
+ 
+    </style>
+</head>
+<body>
+  <!-- NavBar   -->
+  <nav class="navbar">
+    <div class="logo_item">
+      <img src="images/logo.png" id="logo" alt=""></i>
+    </div>
+  </nav>
+  <!-- SideBar -->
+  <div class="sidebar close">
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Home</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="metal wall/dukecraft.html">Metal Art</a></li>
+          <li><a href="photo frame/amber.html">Photo Frame</a></li>
+          <li><a href="wall animals/aftona.html">Animal Art</a></li>
+          <li><a href="paper art catogry/alaxus.html">Wallpaper</a></li>
+          <li><a href="shelves catogory/hafinashop.html">Shelves Art</a></li>
+          <li><a href="mirror art catogry/artdeco.html">Mirror Art</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="abour.html">About</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="contect.html">Contact</a></li>
+        </ul>
+      </li>
+</ul>
+  </div>
+  <div class="container-fluid mt-5" style="overflow: hidden;">
+    <div class="row ">
+      <div class="img position-relative ">
+        <img src="images/abt1.jpeg" class=" img-fluid col-12 image"  alt="">
+        <div class=" position-absolute bv " style="top: 40%;left: 40%;">
+          <h1 class=" text1"  >About us</h1>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<div class="container mt-5 mb-5">
+    <div class="row ">
+      <div class="col-md-3 text-center">
+        <img src="images/about1.avif" class="img-fluid " width="70" alt="...">
+        <div class="card-body">
+          <h6 class="hh">Premium Quality</h6>
+          <p class="card-text">Trusted by corporates and individuals nationwide.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/about2.avif" class="img-fluid " width="70" alt="...">
+        <div class="card-body">
+          <h6 class="hh">Free Delivery</h6>
+          <p class="card-text">Free delivery and hassle free replacement.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/about3.avif" class="img-fluid " width="70" alt="...">
+        <div class="card-body">
+          <h6 class="hh">Weekly Deals</h6>
+          <p class="card-text">Each week dozens of articles are added in sales section.</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/about4.avif" class="img-fluid " width="70" alt="...">
+        <div class="card-body">
+          <h6 class="hh">Budget Friendly</h6>
+          <p class="card-text">Competitive pricing in the industry against the quality.</p>
+        </div>
+      </div>
+
+      
+      
+    </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <img src="images/about5.webp" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-7 mt-auto mb-auto">
+      <div class="head"><h1 class="tt">OUR BUSINESS</h1></div>
+   <div class="txt">
+    We work with passion to bring you the world's largest art collection. Whatever your interest, your décor style, your inspiration – we're sure to have that piece you can't live without.
+
+We believe art is dynamic, personal and connected to now, and the experience of buying and living with it should be too. From the moment you browse our site to the day your art is delivered, our team has one goal in mind: to delight you every step of the way
+   </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container-fluid latest shadow-lg   bg-body rounded what mt-4">
+  <div class="row d-flex">
+   
+    <div >
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-6 py-4">
+      <img src="images/logo.png"  width="60%" alt="">
+      <p class="ftext">Home decor is clearing and creating living spaces that are visually appealing and more attractive to the human eye. Designing and decorating our homes is something we can easily envision. We all know what our ideal home looks like, and often it's making this vision a reality that's difficult to achieve.</p>
+      
+    </div>
+    <div class="col-lg-4 py-4">
+      <h4 style="color: #dfcd50; ">Address</h4>
+      <div class="ftext d-flex">
+        </i>   
+              
+    
+    <p> Aptech Learning Shahrah-e-Faisal.</p>
+    
+  </div>
+  
+<div class="ftext d-flex">
+  
+ <p> MON - SAT 7:00 AM - 11:00 PM <br> Sundays & Public Holidays Closed </p>
+</div>
+
+  </div>
+  <div class="col-lg-2 py-4">
+    <h4 style="color: #dfcd50;">Contant Us</h4>
+    <div class="ftext d-flex">
+      </i>   
+            
+  
+  
+  
+</div>
+<div class="ftext d-flex">
+
+<p > 0213-4550068 </p>
+
+</div>
+<div class="ftext d-flex">
+ <p > jensendecors@gmail.com </p>
+
+</div>
+
+
+</div>
+  
+  
+
+</div>
+</div>
+</div>
+<div class="shortfooter text-center">
+<h5>Copy Rights @ </h5>
+</div>
+</div>
+</div>
+
+</body>
+</html>

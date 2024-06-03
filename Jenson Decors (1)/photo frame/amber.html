@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Frame Art - Jenson Decors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="amber.json">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Praise&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script 
+    src="https://maps.googleapis.com/maps/api/js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+      .product-card .main-images img{
+      position: absolute;
+      height: 250px;
+      width: 300px;
+      top: -40px;
+      left: -40px;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .latest{
+      z-index: 0;
+      margin-top: 100px !important;
+    }
+        </style>
+</head>
+<body>
+   <!-- NavBar   -->
+   <nav class="navbar">
+    <div class="logo_item">
+      <img src="images/logo.png" id="logo" alt=""></i>
+    </div>
+    <div class="search_bar">
+      <input type="text" placeholder="Search" id="search" />
+    </div>
+    <div class="navbar_content">
+      
+    </div>
+  </nav>
+  <!-- SideBar -->
+  <div class="sidebar close">
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="../index.html">home</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="../metal wall/dukecraft.html">Metal Art</a></li>
+          <li><a href="../photo frame/amber.html">Photo Frame</a></li>
+          <li><a href="../wall animals/aftona.html">Animal Art</a></li>
+          <li><a href="../paper art catogry/alaxus.html">Wallpaper</a></li>
+          <li><a href="../shelves catogory/hafinashop.html">Shelves Art</a></li>
+          <li><a href="../mirror art catogry/artdeco.html">Mirror Art</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Posts</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Posts</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Login Form</a></li>
+          <li><a href="#">Card Design</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Analytics</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-line-chart' ></i>
+          <span class="link_name">Chart</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-plug' ></i>
+            <span class="link_name">Plugins</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Plugins</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+</ul>
+  </div>
+    <div class="container latest">
+      <div class="row prod">
+
+      </div>
+    </div>
+    <div class="mod">
+      
+    </div>
+<!-- Footer -->
+<div class="container-fluid latest shadow-lg   bg-body rounded what mt-4">
+  <div class="row d-flex">
+   
+    <div class="footer">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-6 py-4">
+      <img src="images/logo.png"  width="60%" alt="">
+      <p class="ftext">Home decor is clearing and creating living spaces that are visually appealing and more attractive to the human eye. Designing and decorating our homes is something we can easily envision. We all know what our ideal home looks like, and often it's making this vision a reality that's difficult to achieve.</p>
+      
+    </div>
+    <div class="col-lg-4 py-4">
+      <h4 style="color: #dfcd50; ">Address</h4>
+      <div class="ftext d-flex">
+        </i>   
+              
+    
+    <p> Aptech Learning Shahrah-e-Faisal.</p>
+    
+  </div>
+  
+<div class="ftext d-flex">
+  
+ <p> MON - SAT 7:00 AM - 11:00 PM <br> Sundays & Public Holidays Closed </p>
+</div>
+
+  </div>
+  <div class="col-lg-2 py-4">
+    <h4 style="color: #dfcd50;">Contant Us</h4>
+    <div class="ftext d-flex">
+      </i>   
+            
+  
+  
+  
+</div>
+<div class="ftext d-flex">
+
+<p > 0213-4550068 </p>
+
+</div>
+<div class="ftext d-flex">
+ <p > jensendecors@gmail.com </p>
+
+</div>
+
+
+</div>
+  
+  
+
+</div>
+</div>
+</div>
+<div class="shortfooter text-center">
+<h5>Copy Rights @ </h5>
+</div>
+</div>
+</div>
+       <script>
+              $(document).ready(function(){
+                $.ajax({
+                  url:"amber.json",
+                  type:"get",
+                  success:function(data){
+                    let a="";
+                    $.each(data,function(index,items){
+            a+=`<div class="col-lg-3 col-md-6 mt-5">
+            <div class="product-card swiper-slide">
+              <div class="main-images">
+                <img class="active" src="${items.image}">
+              </div>
+              <div class="shoe-details">
+                <span class="shoe_name">${items.name}</span>
+                <p>${items.brand}</p>
+                <div class="stars">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star' ></i>
+                  <i class='bx bxs-star' ></i>
+                  <i class='bx bxs-star' ></i>
+                  <i class='bx bx-star' ></i>
+                </div>
+              </div>
+              <div class="color-price">
+                <div class="price">
+                  <span class="price_num"> Price : Rs  ${items.price}</span>
+                </div>
+              </div>
+              <div class="button">
+                <div class="button-layer"></div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal${items.id}">Shop Now</button>
+              </div>
+            </div>
+            </div>` 
+                    });
+                    $(".prod").html(a);
+    
+                  }
+    
+                });
+              
+              });
+              $(document).ready(function(){
+          $.ajax({
+            url:"amber.json",
+            type:"get",
+            success:function(data){
+              let b="";
+              $.each(data,function(key,value){
+                b+=`
+<div class="modal fade" id="exampleModal${value.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row>"
+          <div class="col-6">
+            <img src="${value.image}" width="20%" height="250px" class="card-img-top" alt="...">
+          </div>
+          <div class="col-6">
+          <h6>${value.name}</h6>
+          <h6>${value.brand}</h6> 
+          <h6 class="card-text" > Price : Rs <span  >${value.price}</span></h6>
+          <button type="button" class="btn btn-secondary">Close</button>
+<button type="button" class=" btn btn-primary"><a href="detail.html?id=${value.id}"
+   style="text-decoration:none;color:white;">Add To Cart</a></button>
+        </div>  
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+                
+                `
+              });
+              $(".mod").html(b);
+            }
+          });
+          $("#search").on("input",function(){
+  $.ajax({
+    url:"amber.json",
+    type:"get",
+    success:function(prod){
+      let search= "";
+          let inputdata = $("#search").val().toLowerCase();
+          let filterdata = prod.filter(function(product){
+              return product.name.toLowerCase().indexOf(inputdata)>-1;
+          })
+          let filterdata1 = prod.filter(function(product){
+              return product.brand.toLowerCase().indexOf(inputdata)>-1;
+          })
+          $.each(filterdata,function(key,element){
+              search+=`<div class="col-lg-3 col-md-6 mt-5">
+            <div class="product-card swiper-slide">
+              <div class="main-images">
+                <img class="active" src="${element.image}">
+              </div>
+              <div class="shoe-details">
+                <span class="shoe_name">${element.name}</span>
+                <p>${element.brand}</p>
+                <div class="stars">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star' ></i>
+                  <i class='bx bxs-star' ></i>
+                  <i class='bx bxs-star' ></i>
+                  <i class='bx bx-star' ></i>
+                </div>
+              </div>
+              <div class="color-price">
+                <div class="price">
+                  <span class="price_num"> Price : Rs  ${element.price}</span>
+                </div>
+              </div>
+              <div class="button">
+                <div class="button-layer"></div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal${element.id}">Shop Now</button>
+              </div>
+            </div>
+            </div>
+              
+              `
+              $(".prod").html(search);
+          })
+          
+
+    }
+  })
+
+})
+});  
+              </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+[
+    {
+        "id": "1",
+        "image": "images/duke1.jpg",
+        "name": "Round Metal ",
+        "brand": "Brand:DukeCraft",
+        "price": "2000",
+        "button": "Shop Now"
+    },
+    {
+        "id": "2",
+        "image": "images/duke2.jpg",
+        "name": "Metal Wall Decor",
+        "brand": "Brand:DukeCraft",
+        "price": "3000",
+        "button": "Shop Now"
+    },
+    {
+        "id": "3",
+        "image": "images/duke3.jpg",
+        "name": "Unique Decorative",
+        "brand": "Brand:DukeCraft",
+        "price": "479",
+        "button": "Shop Now"
+    },
+    {
+        "id": "4",
+        "image": "images/duk4.jpg",
+        "name": "Metal Hearts ",
+        "brand": "Brand:DukeCraft",
+        "price": "2499",
+        "button": "Shop Now"
+    },
+        {
+            "id": 5,
+            "image": "images/duke5.jpg",
+            "name": "STEEL Bullseye Wall ",
+            "brand": "Brand:Moxvio",
+            "price": "1799",
+            "button": "Shop Now"
+        },
+        {
+            "id": 6,
+            "image": "images/duke6.jpg",
+            "name": "Skysail Modern Clock",
+            "brand": "Brand:Moxvio",
+            "price": "2399",
+            "button": "Shop Now"
+        },
+        {
+            "id": 7,
+            "image": "images/duke7.jpg",
+            "name": "STEEL Luna Clock",
+            "brand": "Brand:Moxvio",
+            "price": "4279",
+            "button": "Shop Now"
+        },
+        {
+            "id": 8,
+            "image": "images/duke8.jpg",
+            "name": "Arrows & Quotes Metal ",
+            "brand": "Brand:Moxvio",
+            "price": "2499",
+            "button": "Shop Now"
+        },
+        {
+            "id": 9,
+            "image": "images/duke9.jpg",
+            "name": "Set of 4 Playing Cards ",
+            "brand": "Brand:WassHome",
+            "price": "1999",
+            "button": "Shop Now"
+        },
+        {
+            "id": 10,
+            "image": "images/duke10.jpg",
+            "name": "Set of 3 Line Art ",
+            "brand": "Brand:WassHome",
+            "price": "2999",
+            "button": "Shop Now"
+        },
+        {
+            "id": 11,
+            "image": "images/duke11.jpg",
+            "name": "Moon Phase Metal ",
+            "brand": "Brand:WassHome",
+            "price": "899",
+            "button": "Shop Now"
+        },
+        {
+            "id": 12,
+            "image": "images/duke12.jpg",
+            "name": "Two Cats Metal Line ",
+            "brand": "Brand:WassHome",
+            "price": "2299",
+            "button": "Shop Now"
+        }
+        
+        ]
+    
+    

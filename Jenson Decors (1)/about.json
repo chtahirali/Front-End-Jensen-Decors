@@ -1,0 +1,31 @@
+[
+    {
+        
+        "name": "header",
+        "paragraph":"paragraph1",
+        "button":"read more",
+        "img": "image/about1.avif"
+        
+    },
+    {
+    
+        "name": "header",
+        "paragraph":"paragraph2s",
+        "button":"read more",
+        "img": "image/about2.avif"
+    },
+    {
+        
+        "name": "header",
+        "paragraph":"paragraph1",
+        "button":"read more",
+        "img": "image/about3.avif"
+    },
+    {
+        
+        "name": "header",
+        "paragraph":"paragraph1",
+        "button":"read more",
+        "img": "image/about4.avif"
+    }
+]

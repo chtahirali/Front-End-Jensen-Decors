@@ -1,0 +1,99 @@
+[
+    {
+        "id": "1",
+        "image": "images/img1.jpg",
+        "name": "Modern White Floating",
+        "brand": "Brand:HafiNaShop",
+        "price": "399",
+        "button": "Shop Now"
+    },
+    {
+        "id": "2",
+        "image": "images/img2.jpg",
+        "name": "Floating Shelf Thick",
+        "brand": "Brand:HafiNaShop",
+        "price": "599",
+        "button": "Shop Now"
+    },
+    {
+        "id": "3",
+        "image": "images/img3.jpg",
+        "name": "Natural Floating Shelf",
+        "brand": "Brand:HafiNaShop",
+        "price": "2149",
+        "button": "Shop Now"
+    },
+    {
+        "id": "4",
+        "image": "images/img4.jpg",
+        "name": "Walnut Colored Floating",
+        "brand": "Brand:HafiNaShop",
+        "price": "1049",
+        "button": "Shop Now"
+    },
+    {
+        "id": "5",
+        "image": "images/img5.jpg",
+        "name": "3 Tier Rustic ",
+        "brand": "Brand:MoamDecor",
+        "price": "949",
+        "button": "Shop Now"
+    },
+    {
+        "id": "6",
+        "image": "images/img6.jpg",
+        "name": "Rustic Wood Wall",
+        "brand": "Brand:MoamDecor",
+        "price": "1599",
+        "button": "Shop Now"
+    },
+    {
+        "id": "7",
+        "image": "images/img7.jpg",
+        "name": "Set of 3 Rustic ",
+        "brand": "Brand:MoamDecor",
+        "price": "2749",
+        "button": "Shop Now"
+    },
+    {
+        "id": "8",
+        "image": "images/img8.jpg",
+        "name": "Set of 3 Wood ",
+        "brand": "Brand:MoamDecor",
+        "price": "1199",
+        "button": "Shop Now"
+    },
+    {
+        "id": "9",
+        "image": "images/img9.jpg",
+        "name": "Set of 3 Wire Basket",
+        "brand": "Brand:USdecorium",
+        "price": "449",
+        "button": "Shop Now"
+    },
+    {
+        "id": "10",
+        "image": "images/img10.jpg",
+        "name": "Set of 2 Bathroom Shelves",
+        "brand": "Brand:USdecorium",
+        "price": "749",
+        "button": "Shop Now"
+    },
+    {
+        "id": "11",
+        "image": "images/img11.jpg",
+        "name": "Set of 3 Wooden Bathroom",
+        "brand": "Brand:USdecorium",
+        "price": "2249",
+        "button": "Shop Now"
+    },
+    {
+        "id": "12",
+        "image": "images/img12.jpg",
+        "name": "Set of 3 Rustic Shelves",
+        "brand": "Brand:USdecorium",
+        "price": "1049",
+        "button": "Shop Now"
+    }
+
+    ]

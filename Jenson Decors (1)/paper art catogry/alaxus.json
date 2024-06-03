@@ -1,0 +1,99 @@
+[
+    {
+        "id": "1",
+        "image": "images/img1.jpg",
+        "name": "Peel And Retro Mottled",
+        "brand": "Brand:Alaxus",
+        "price": "999",
+        "button": "Shop Now"
+    },
+    {
+        "id": "2",
+        "image": "images/img2.jpg",
+        "name": "Peel And Tropical Flamingo  ",
+        "brand": "Brand:Alaxus",
+        "price": "1249",
+        "button": "Shop Now"
+    },
+    {
+        "id": "3",
+        "image": "images/img3.jpg",
+        "name": "Peel And Gold Tree",
+        "brand": "Brand:Alaxus",
+        "price": "2399",
+        "button": "Shop Now"
+    },
+    {
+        "id": "4",
+        "image": "images/img4.jpg",
+        "name": "Peel And Tropical Rain",
+        "brand": "Brand:Alaxus",
+        "price": "1499",
+        "button": "Shop Now"
+    },
+    {
+        "id": "5",
+        "image": "images/img5.jpg",
+        "name": "Butterfly removable blue",
+        "brand": "Brand:LandScapeWall",
+        "price": "849",
+        "button": "Shop Now"
+    },
+    {
+        "id": "6",
+        "image": "images/img6.jpg",
+        "name": "Butterfly removable blue ",
+        "brand": "Brand:LandScapeWall",
+        "price": "1399",
+        "button": "Shop Now"
+    },
+    {
+        "id": "7",
+        "image": "images/img7.jpg",
+        "name": "Vintage butterfly Floral wall",
+        "brand": "Brand:LandScapeWall",
+        "price": "2549",
+        "button": "Shop Now"
+    },
+    {
+        "id": "8",
+        "image": "images/img8.jpg",
+        "name": "Vintage dark landscape",
+        "brand": "Brand:LandScapeWall",
+        "price": "1299",
+        "button": "Shop Now"
+    },
+    {
+        "id": "9",
+        "image": "images/img9.jpg",
+        "name": "Botanical Wallpaper Marble",
+        "brand": "Brand:WonderWallsBoutique",
+        "price": "799",
+        "button": "Shop Now"
+    },
+    {
+        "id": "10",
+        "image": "images/img10.jpg",
+        "name": "Wall Mural Marble",
+        "brand": "Brand:WonderWallsBoutique",
+        "price": "1249",
+        "button": "Shop Now"
+    },
+    {
+        "id": "11",
+        "image": "images/img11.jpg",
+        "name": "Peel Stick Marble",
+        "brand": "Brand:WonderWallsBoutique",
+        "price": "2899",
+        "button": "Shop Now"
+    },
+    {
+        "id": "12",
+        "image": "images/img12.jpg",
+        "name": "Removable Wallpaper Marble",
+        "brand": "Brand:WonderWallsBoutique",
+        "price": "1899",
+        "button": "Shop Now"
+    }
+    
+    ]

@@ -1,0 +1,100 @@
+[
+    {
+        "id": "1",
+        "image": "images/img1.jpg",
+        "name": "Resin Simulation Animal",
+        "brand": "Brand:AftoNa",
+        "price": "749",
+        "button": "Shop Now"
+    },
+    {
+        "id": "2",
+        "image": "images/img2.jpg",
+        "name": "3D Resin <br> Animal",
+        "brand": "Brand:AftoNa",
+        "price": "849",
+        "button": "Shop Now"
+    },
+    {
+        "id": "3",
+        "image": "images/img3.jpg",
+        "name": "Simulated Animal Goat",
+        "brand": "Brand:AftoNa",
+        "price": "2049",
+        "button": "Shop Now"
+    },
+    {
+        "id": "4",
+        "image": "images/img4.jpg",
+        "name": "Simulation Animal Head",
+        "brand": "Brand:AftoNa",
+        "price": "1399",
+        "button": "Shop Now"
+    },
+    {
+        "id": "5",
+        "image": "images/img5.jpg",
+        "name": "Zebra head  planter",
+        "brand": "Brand:AspireTree",
+        "price": "399",
+        "button": "Shop Now"
+    },
+    {
+        "id": "6",
+        "image": "images/img6.jpg",
+        "name": "Monkey head wall",
+        "brand": "Brand:AspireTree",
+        "price": "449",
+        "button": "Shop Now"
+    },
+    {
+        "id": "7",
+        "image": "images/img7.jpg",
+        "name": "Highland cow wall ",
+        "brand": "Brand:AspireTree",
+        "price": "739",
+        "button": "Shop Now"
+    },
+    {
+        "id": "8",
+        "image": "images/img8.jpg",
+        "name": "Zebra head <br> Wall",
+        "brand": "Brand:AspireTree",
+        "price": "1429",
+        "button": "Shop Now"
+    },
+    {
+        "id": "9",
+        "image": "images/img9.jpg",
+        "name": "3D Wall Mounted",
+        "brand": "Brand:OnlineRelics",
+        "price": "249",
+        "button": "Shop Now"
+    },
+    {
+        "id": "10",
+        "image": "images/img10.jpg",
+        "name": "Zebra Head <br> Wall",
+        "brand": "Brand:OnlineRelics",
+        "price": "449",
+        "button": "Shop Now"
+    },
+    {
+        "id": "11",
+        "image": "images/img11.jpg",
+        "name": "Decoration Accessories",
+        "brand": "Brand:OnlineRelics",
+        "price": "1099",
+        "button": "Shop Now"
+    },
+    {
+        "id": "12",
+        "image": "images/img12.jpg",
+        "name": "Rhino Rhinoceros Faux",
+        "brand": "Brand:OnlineRelics",
+        "price": "1169",
+        "button": "Shop Now"
+    }
+
+
+    ]

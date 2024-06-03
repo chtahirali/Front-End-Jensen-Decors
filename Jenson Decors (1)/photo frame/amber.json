@@ -1,0 +1,100 @@
+[
+    {
+        "id":"1",
+        "image": "images/img1.jpg",
+        "name": "Orange Floral Mango",
+        "brand": "Brand:ByAmberAndRose",
+        "price": "3949",
+        "button": "Shop Now"
+    },
+    {
+        "id":"2",
+        "image": "images/img2.jpg",
+        "name": "6″ x 4″ Neela Blue ",
+        "brand": "Brand:ByAmberAndRose",
+        "price": "2939",
+        "button": "Shop Now"
+    },
+    {
+        "id":"3",
+        "image": "images/img3.jpg",
+        "name": "Carved Border Mango ",
+        "brand": "Brand:ByAmberAndRose",
+        "price": "1629",
+        "button": "Shop Now"
+    },
+    {
+        "id":"4",
+        "image": "images/img4.jpg",
+        "name": "Green Antique Style ",
+        "brand": "Brand:ByAmberAndRose",
+        "price": "1939",
+        "button": "Shop Now"
+    },
+    {
+        "id":"5",
+        "image": "images/img5.jpg",
+        "name": "Portrait Painting ",
+        "brand": "Brand:HelloAm",
+        "price": "4149",
+        "button": "Shop Now"
+    },
+    {
+        "id":"6",
+        "image": "images/img6.jpg",
+        "name": "Watercolor Couple ",
+        "brand": "Brand:HelloAm",
+        "price": "Price:2349",
+        "button": "Shop Now"
+    },
+    {
+        "id":"7",
+        "image": "images/img7.jpg",
+        "name": "Portrait Painting Photo",
+        "brand": "Brand:HelloAm",
+        "price": "Price:1749",
+        "button": "Shop Now"
+    },
+    {
+        "id":"8",
+        "image": "images/img8.jpg",
+        "name": "Portrait Personalized Gift",
+        "brand": "Brand:HelloAm",
+        "price": "Price:2139",
+        "button": "Shop Now"
+    },
+    {
+        "id": "9",
+        "image": "images/img9.jpg",
+        "name": "Custom Wooden Photo",
+        "brand": "Brand:JordansCharmed",
+        "price": "3449",
+        "button": "Shop Now"
+    },
+    {
+        "id": "10",
+        "image": "images/img10.jpg",
+        "name": "Custom Engraved Wooden ",
+        "brand": "Brand:JordansCharmed",
+        "price": "2349",
+        "button": "Shop Now"
+    },
+    {
+        "id": "11",
+        "image": "images/img11.jpg",
+        "name": "Drawing Effect Personalised",
+        "brand": "Brand:JordansCharmed",
+        "price": "1949",
+        "button": "Shop Now"
+    },
+    {
+        "id": "12",
+        "image": "images/img12.jpg",
+        "name": "Laser Engraved Photo",
+        "brand": "Brand:JordansCharmed",
+        "price": "2049",
+        "button": "Shop Now"
+    }
+    
+    
+    ]

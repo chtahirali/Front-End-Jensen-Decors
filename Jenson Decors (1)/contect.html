@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Jenson Decors</title>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="code.jquery.com_jquery-3.7.0.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Praise&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <script 
+  src="https://maps.googleapis.com/maps/api/js">
+  
+  
+</script>
+    <style>
+      @media (min-width:768px) {
+        /* .abc{
+ width: 70% !important;
+       } */
+       /* .gh{
+        margin-left: 0px;
+       } */
+       .contente{
+        border-radius: 20px;
+       }
+       .fr{
+        margin-bottom: 30px !important;
+       }
+       .nb{
+        margin-left: 20px;
+       }
+      }
+      @media (max-width:1225px) {
+        .text1{
+          font-size: 3rem !important;
+          
+        }
+        
+      }
+      /* @media (max-width:821px) {
+          .text1{
+            font-size: 3rem !important;
+          }
+        } */
+      @media(max-width:767px)  {
+        .image{
+          height: 180px;
+        }
+        .ee{
+          padding: 20px !important;
+        }
+        .bv{
+          left: 32% !important;
+        }
+        .fr{
+        font-size: 30px !important;
+       }
+
+        .text1{
+          font-size: 2rem !important;
+
+        }
+        
+        
+      }
+      @media (max-width:281px) {
+        .image{
+          height: 120px;
+        }
+        .text1{
+          font-size: 1.5rem;
+        }
+        .bv{
+          top: 28% !important;
+          left: 25% !important;
+        }
+      }
+ 
+       #lmap{
+width: 100%;
+height: 200px;
+
+    }
+   
+    .cd{
+      text-transform: uppercase;
+      font-weight: 900;
+      color:black;
+    }
+    .ve{
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .fr{
+      color: #dfcd50;
+      font-weight: 900;
+    }
+    .vd{
+     
+      font-weight: 500;
+      color: black;
+    }
+    .abc{
+      border: 1px solid#dfcd50;
+    }
+   
+  
+    .text1{
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #dfcd50;
+    }
+    .gh{
+     
+      font-size: 17px;
+      background-color:#dfcd50;
+      color: white;
+      font-weight: 800;
+      /* margin-left: 125px; */
+
+      border-radius: 10px;
+    }
+    .abc:focus{
+        outline: none !important;
+      box-shadow: none;
+        border-color: #dfcd50
+    
+       }
+  
+
+    </style>
+</head>
+<body >
+    <!-- NavBar   -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <img src="images/logo.png" id="logo" alt=""></i>
+      </div>
+    </nav>
+    <!-- SideBar -->
+    <div class="sidebar close">
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="link_name">Home</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="index.html">Home</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class='bx bx-collection' ></i>
+              <span class="link_name">Category</span>
+            </a>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Category</a></li>
+            <li><a href="metal wall/dukecraft.html">Metal Art</a></li>
+            <li><a href="photo frame/amber.html">Photo Frame</a></li>
+            <li><a href="wall animals/aftona.html">Animal Art</a></li>
+            <li><a href="paper art catogry/alaxus.html">Wallpaper</a></li>
+            <li><a href="shelves catogory/hafinashop.html">Shelves Art</a></li>
+            <li><a href="mirror art catogry/artdeco.html">Mirror Art</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="link_name">Analytics</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="abour.html">About</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="link_name">Setting</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="contect.html">Contact</a></li>
+          </ul>
+        </li>
+  </ul>
+    </div>
+    <div class="container-fluid mt-5 " style="overflow: hidden;">
+      <div class="row ">
+        <div class="img position-relative ">
+          <img src="images/contact1.jpg" class=" img-fluid col-12 image"  alt="">
+          <div class=" position-absolute bv " style="top: 40%;left: 40%;">
+            <h1 class=" text1"  >Contact us</h1>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+
+
+      <div class="container mt-5"  >
+
+        <div class="row justify-content-around">
+            <div class="col-md-4 " >
+                <div class="row  nb ">
+                  <div class="contente p-4" style="background-color: whitesmoke;">
+                  <div class="location"><div class="text">
+                    <p class="ve"><span class="cd">ADDRESS: </span> Aptech Shahrah-e-faisal main road</p>
+                  </div>
+                  <div id="lmap"></div>
+                </div>
+                  <div class="text ">
+                    <p class="ve mt-2"><span class="cd">Phone number: </span> 0347384848, 0485484845, 0454945954 </p>
+                  <p class="ve"><span class="cd">Email: </span> <span> muneezraza48@gmail .com</span></p>
+                  </div>
+               
+                    
+
+                  </div>
+
+                </div>
+                
+            </div>
+            <div class="col-md-8 p-5 ee  "  >
+                <h1 class=" fr ">Contact Us</h1>
+                <div class="mb-3 row ">
+                    <label for="text" class="col-sm-2 col-form-label vd">Your Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control abc" id="u_name">
+                      <span id="un"></span></br>
+                    </div>
+                  </div>
+                 
+               
+                  <div class="mb-3 row">
+                    <label for="inputemail" class="col-sm-2 col-form-label vd">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control abc" id="u_email">
+                      <span id="ue"></span></br>
+                    </div>
+                  </div>
+                  
+                  <div class="mb-3 row">
+                    <label for="inputnum" class="col-sm-2 col-form-label vd">Phone</label>
+                    <div class="col-sm-10">
+                      <input type="phone" class="form-control abc" id="u_num">
+                      <span id="unum"></span></br>
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label vd">Input Your Message</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control abc" id="u_text" rows="4"></textarea>
+                      <span id="ut"></span></br>
+            <div class="btn  gh mt-1 " value="click" onclick="validation()">Submit</div>
+
+                    </div>
+                  </div>
+           
+                 
+            </div>
+        </div>
+
+    </div>
+<!-- Footer -->
+<div class="container-fluid latest shadow-lg   bg-body rounded what mt-4">
+  <div class="row d-flex">
+   
+    <div class="footer">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-6 py-4">
+      <img src="images/logo.png"  width="60%" alt="">
+      <p class="ftext">Home decor is clearing and creating living spaces that are visually appealing and more attractive to the human eye. Designing and decorating our homes is something we can easily envision. We all know what our ideal home looks like, and often it's making this vision a reality that's difficult to achieve.</p>
+      
+    </div>
+    <div class="col-lg-4 py-4">
+      <h4 style="color: #dfcd50; ">Address</h4>
+      <div class="ftext d-flex">
+        </i>   
+              
+    
+    <p> Aptech Learning Shahrah-e-Faisal.</p>
+    
+  </div>
+  
+<div class="ftext d-flex">
+  
+ <p> MON - SAT 7:00 AM - 11:00 PM <br> Sundays & Public Holidays Closed </p>
+</div>
+
+  </div>
+  <div class="col-lg-2 py-4">
+    <h4 style="color: #dfcd50;">Contant Us</h4>
+    <div class="ftext d-flex">
+      </i>   
+            
+  
+  
+  
+</div>
+<div class="ftext d-flex">
+
+<p > 0213-4550068 </p>
+
+</div>
+<div class="ftext d-flex">
+ <p > jensendecors@gmail.com </p>
+
+</div>
+
+
+</div>
+  
+  
+
+</div>
+</div>
+</div>
+<div class="shortfooter text-center">
+<h5>Copy Rights @ </h5>
+</div>
+</div>
+</div>
+    <script>
+      var lmap = document.getElementById("lmap");
+      var cl = new google.maps.LatLng(24.85301718065159, 67.07080219912095);
+      var gmap = new google.maps.Map(lmap,{
+          center:cl,
+          zoom:16,
+          mapTypeId:"hybrid"
+      });
+      var mrkr = new google.maps.Marker({
+          position:cl,
+          map:gmap,
+          title:"Aptech",
+   
+      })
+
+      function validation() {
+            let u_name=document.querySelector("#u_name").value;
+            let u_email=document.querySelector("#u_email").value;
+           let u_num=document.querySelector("#u_num").value;
+           let u_text=document.querySelector("#u_text").value;
+
+
+            let un=document.querySelector("#un");
+            let ue=document.querySelector("#ue");
+            let unum=document.querySelector("#unum");
+            let ut=document.querySelector("#ut");
+
+            
+            let reg_n=/^[A-Za-z\s]{3,18}$/
+            let reg_e=/^[a-z,0-9]{1,}[@][a-z]{4,8}[.][a-z]{1,3}$/
+            let reg_num=/^[0-9]{11,11}$/
+            let reg_t=/^[A-Za-z\s]{10,}$/
+            if(!u_name){
+                un.innerHTML="please enter required field";
+                un.style.color="red";
+            }else if(!reg_n.test(u_name)){
+                un.innerHTML="this pattern does'nt match";
+                un.style.color="red";
+            }else if(reg_n.test(u_name)){
+                un.innerHTML="";
+                un.style.color="Goldenrod";
+
+        }
+        if(!u_email){
+                ue.innerHTML="please enter required field";
+                ue.style.color="red";
+            }else if(!reg_e.test(u_email)){
+                ue.innerHTML="this pattern does'nt match";
+                ue.style.color="red";
+            }else if(reg_e.test(u_email)){
+                ue.innerHTML="";
+                ue.style.color="Goldenrod";
+
+        }
+      
+        if(!u_num){
+                unum.innerHTML="please enter required field";
+                unum.style.color="red";
+            }else if(!reg_num.test(u_num)){
+                unum.innerHTML="this pattern does'nt match";
+                unum.style.color="red";
+            }else if(reg_num.test(u_num)){
+                unum.innerHTML="";
+                unum.style.color="Goldenrod";}
+
+                if(!u_text){
+                ut.innerHTML="please enter required field";
+                ut.style.color="red";
+            }else if(!reg_t.test(u_text)){
+                ut.innerHTML="must be 10 characters";
+                ut.style.color="red";
+            }else if(reg_t.test(u_text)){
+                ut.innerHTML="";
+                ut.style.color="Goldenrod";
+      }
+      
+      }
+  </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "image": "images/img1.jpg",
+        "name": "Rectangular Art",
+        "brand": "Brand:ArtDeco",
+        "price": "799",
+        "button": "Shop Now"
+    },
+    {
+        "id": 2,
+        "image": "images/img2.jpg",
+        "name": "Pink & Black Art",
+        "brand": "Brand:ArtDeco",
+        "price": "1299",
+        "button": "Shop Now"
+    },
+    {
+        "id": 3,
+        "image": "images/img3.jpg",
+        "name": "Rectangular Art",
+        "brand": "Brand:ArtDeco",
+        "price": "3199",
+        "button": "Shop Now"
+    },
+    {
+        "id": 4,
+        "image": "images/img4.jpg",
+        "name": "Vintage 1930's ",
+        "brand": "Brand:ArtDeco",
+        "price": "2999",
+        "button": "Shop Now"
+    },
+    {
+        "id": 5,
+        "image": "images/img5.jpg",
+        "name": "Wavy Mirror Neon Sign",
+        "brand": "Brand:MagicMirrors",
+        "price": "699",
+        "button": "Shop Now"
+    },
+    {
+        "id": 6,
+        "image": "images/img6.jpg",
+        "name": "Custom Wavy Mirror Led ",
+        "brand": "Brand:MagicMirrors",
+        "price": "1149",
+        "button": "Shop Now"
+    },
+    {
+        "id": 7,
+        "image": "images/img7.jpg",
+        "name": "Custom Mirror Led Sign",
+        "brand": "Brand:MagicMirrors",
+        "price": "3049",
+        "button": "Shop Now"
+    },
+    {
+        "id": 8,
+        "image": "images/img8.jpg",
+        "name": "Wavy Pink Glowing Mirror",
+        "brand": "Brand:MagicMirrors",
+        "price": "1999",
+        "button": "Shop Now"
+    },
+    {
+        "id": 9,
+        "image": "images/img9.jpg",
+        "name": "Round Entryway Mirror",
+        "brand": "Brand:PhotoStation",
+        "price": "999",
+        "button": "Shop Now"
+    },
+    {
+        "id": 10,
+        "image": "images/img10.jpg",
+        "name": "Stained Round Mirror",
+        "brand": "Brand:PhotoStation",
+        "price": "2299",
+        "button": "Shop Now"
+    },
+    {
+        "id": 11,
+        "image": "images/img11.jpg",
+        "name": "Large Round Mirror ",
+        "brand": "Brand:PhotoStation",
+        "price": "579",
+        "button": "Shop Now"
+    },
+    {
+        "id": 12,
+        "image": "images/img12.jpg",
+        "name": "Circle Mirror with Water Art",
+        "brand": "Brand:PhotoStation",
+        "price": "2499",
+        "button": "Shop Now"
+    }
+    
+    
+    ]
